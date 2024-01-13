@@ -1,0 +1,39 @@
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background-color: #eefcfc;
+}
+nav h1 {
+  color: #0d2080;
+  font-size: 40px;
+}
+
+nav a {
+  color:#15fc04;
+  transition: text-indent;
+  font-size: 20px;
+}
+nav a:hover {
+  color: #1a071a;
+  border-bottom: 2px solid #15fc04;
+
+}
+
+nav ul {
+  display: flex;
+  gap: 1.2rem;
+
+}
+
+nav ul li {
+  font-weight:bold;
+
+}
+
