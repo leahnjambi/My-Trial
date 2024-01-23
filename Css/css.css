@@ -1,28 +1,44 @@
 
 .nav1 {
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
   background-color: #eefcfc;
 }
+.logoph {
+  display: flex;
+  border-image: none;
+  width: 2cm;
+  height: 2cm;
+
+}
+.txt1{
+  font-size: 20px;
+  padding-right: 5%;
+  padding-bottom: 80px;
+
+}
+.btn1{
+  width: 4cm;
+  height: 1cm;
+  font-size: 20px;
+  color: #5c8cf3;
+  background-color: #eefcfc;
+}
+
 nav h1 {
-  color: #0d2080;
+  color: #4a68fd;
   font-size: 40px;
 }
 
 nav a {
-  color:#15fc04;
+  color: #0453fc;
   transition: text-indent;
   font-size: 20px;
 }
 nav a:hover {
   color: #1a071a;
-  border-bottom: 2px solid #15fc04;
 
 }
 
@@ -37,32 +53,25 @@ nav ul li {
 }
 .navAbout{
   display: flex;
-  padding: 24px;
+  padding-top: 20px;
   justify-content: space-between;
-  align-content: center;
-
-
-}
-.aboutph{
-  padding-right: 40px;
-
+  background-color: #b3c3e5;
 }
 .aboutme{
-  background-color: aqua;
   width: 25rem;
-  padding: 0.625rem;
   border-radius: 10px;
-  box-shadow: 0px 2px 15px 2px #15fc04;
   padding-right: 50px;
   padding-left:50px;
   font-size: 20px;
   text-align: center;
-  text-decoration-color: #15fc04;
+}
+.logoph1{
+  width: 5cm;
+  height: 5cm;
 }
 .navMOREABOUT{
 
   text-align: center;
-  padding: 1rem 6rem;
   padding-top: 20px;
   padding-bottom: 20px;
 }
