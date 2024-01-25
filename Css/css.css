@@ -6,11 +6,23 @@
   padding: 1.5rem 3.5rem;
   background-color: #eefcfc;
 }
+.navigation {
+  display: flex;
+  gap: 1.2rem;
+
+}
+.nav-link:hover {
+  color: #af0ad5;
+
+}
+.nav-link{
+  color: #131213;
+  font-size: 15px;}
 .logoph {
   display: flex;
   border-image: none;
-  width: 2cm;
-  height: 2cm;
+  width: 0.5cm;
+  height: 0.5cm;
 
 }
 .txt1{
@@ -20,42 +32,40 @@
 
 }
 .btn1{
-  width: 4cm;
+  width: 3cm;
   height: 1cm;
-  font-size: 20px;
-  color: #5c8cf3;
-  background-color: #eefcfc;
-}
-
-nav h1 {
-  color: #4a68fd;
-  font-size: 40px;
-}
-
-nav a {
+  font-size: 15px;
   color: #0453fc;
-  transition: text-indent;
-  font-size: 20px;
-}
-nav a:hover {
-  color: #1a071a;
-
+  border-color: #0453fc;
+  background-color: #f7f7fc;
 }
 
-nav ul {
-  display: flex;
-  gap: 1.2rem;
 
-}
-
-nav ul li {
-  font-weight:bold;
-}
 .navAbout{
   display: flex;
   padding-top: 20px;
-  justify-content: space-between;
   background-color: #b3c3e5;
+  border-radius: 0.5cm;
+  height: 10cm;
+}
+.h1{
+  color: #131213;
+  font-size: 12px;
+}
+.h2{
+  color: #0e0d0d;
+}
+.p1{
+  font-size: 12px;
+  color: #4a68fd;
+}
+.btn2{
+  color: #eefcfc;
+  background-color: #0453fc;
+  height: 40px;
+  width: 3cm;
+  border-radius: 0.2cm;
+
 }
 .aboutme{
   width: 25rem;
@@ -63,11 +73,11 @@ nav ul li {
   padding-right: 50px;
   padding-left:50px;
   font-size: 20px;
-  text-align: center;
+  text-align: start;
 }
 .logoph1{
-  width: 5cm;
-  height: 5cm;
+  width: 0.2cm;
+  height: 0.2cm;
 }
 .navMOREABOUT{
 
