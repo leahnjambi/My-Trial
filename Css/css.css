@@ -194,4 +194,49 @@
 .aboutP{
   margin: 50px;
 }
+.projectD{
+  display: flex;
+}
+.diva{
+  margin: 20px;
+  background-color: #38fcfc;
+}
+.diva p{
+  padding-left: 20px;
+}
+.logoph3{
+  width: 80px;
+  padding: 20px;
+}
+.footerP{
+  display: flex;
+  text-align: start;
+
+}
+.logoph4{
+  width: 1cm;
+  height: 1cm;
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.projectA{
+  padding-right: 60%;
+}
+.logoph5{
+   width: 8cm;
+  height: 4cm;
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.section{
+  padding: 20px;
+}
+.logoph6{
+  width: 3cm;
+  height: 1cm;
+  padding-left: 95%;
+
+}
 
