@@ -10,14 +10,14 @@
 <!-- Navbar -->
 <nav class="nav1" id="nav1">
     <div class="logoph">
-            <img src="Img/Logo.png">
+            <img src="Img/IMG-20230928-WA0036.jpg">
        </div>
     <div class="navHeader">
         <ul class="navigation">
-        <li><a class="nav-link" href="#home">Home</a></li>
-        <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-        <li><a class="nav-link" href="#about me">About me</a></li>
-        <li><a class="nav-link" href="#testimonials">Testimonials</a></li>
+        <li><a class="nav-link" href="#navAbout">Home</a></li>
+        <li><a class="nav-link" href="#AboutMe">About me</a></li>
+            <li><a class="nav-link" href="#Portfolio">Portfolio</a></li>
+        <li><a class="nav-link" href="#testimony">Testimonials</a></li>
     </ul>
 
         </div>
@@ -83,7 +83,7 @@
         </div>
     </div>
 </section>
-<section class="section">
+<section class="section" id="AboutMe">
 <div class="aboutMe">
     <div>
         <img class="logoph1" src="Img/IMG-20230928-WA0036.jpg">
@@ -102,16 +102,19 @@
     </div>
 </div>
 </section>
-<section class="section">
+<section class="section" id="Portfolio">
     <div class="projectD">
         <div class="projectA">
         <h5>Recent Project</h5>
         <h2>My Portfolio</h2>
         </div>
         <div>
-            <a href="https://github.com/leahnjambi" target="_blank"
-    ><img alt="Github" class="logoph6" src="Img/Social%20button.png"
-    /></a>
+            <a href="https://github.com/leahnjambi" target="_blank">
+               <button class="btnImg">
+                   <h5>View in my Github</h5>
+               </button>
+
+    </a>
         </div>
     </div>
     <div class="projectD">
@@ -151,7 +154,7 @@
 
 
 </section>
-<section class="section">
+<section class="section" id="testimony">
     <div>
         <h5>Clients Feedback</h5>
         <h1>Customers Testimonials</h1>
@@ -186,6 +189,79 @@
                 </div>
             </div>
         </div>
+</section>
+<section class="section">
+ <h2 class="form">Get In Touch With Me</h2>
+    <div class="contact-form-container">
+        <div class="contact-form">
+            <form action="https://formspree.io/f/xyylngw" method="POST">
+                <div class="form-control1">
+                    <label for="firstname">First Name</label>
+                    <input
+                            class="input-field"
+                            id="firstname"
+                            name="sender-name"
+                            placeholder="Enter Your First Name"
+                            required
+                            type="text"
+                    />
+                    <label for="secondname">Second Name</label>
+                    <input
+                            class="input-field"
+                            id="secondname"
+                            name="sender-name"
+                            placeholder="Enter Your Second Name"
+                            required
+                            type="text"
+                    />
+                </div>
+                <div class="form-control1">
+                    <label for="email">Email</label>
+                    <input
+                            class="input-field"
+                            id="email"
+                            name="sender-email"
+                            placeholder="Enter Your Email"
+                            required
+                            type="email"
+                    />
+                    <label for="phoneNumber">PhoneNumber</label>
+                    <input
+                            class="input-field"
+                            id="phoneNumber"
+                            name="sender-name"
+                            placeholder="Enter Phone Number"
+                            required
+                            type="text"
+                    />
+                </div>
+                <div class="form-control">
+                    <label for="message">Message</label>
+                    <textarea
+                            class="input-field"
+                            cols="60"
+                            id="message"
+                            name="message"
+                            placeholder="Enter Your Message"
+                            required
+                            rows="10"
+                    ></textarea>
+
+                </div>
+                <div class="accept">
+                    <button class="acceptB"></button>
+                    <H3>I accept this term</H3>
+                </div>
+                <input
+                        class="submit-btn"
+                        id="submit-btn"
+                        type="submit"
+                        value="Submit"
+                />
+            </form>
+        </div>
+    </div>
+
 </section>
 
 </body>
