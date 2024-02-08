@@ -21,8 +21,8 @@
 .logoph {
   display: flex;
   border-image: none;
-  width: 0.5cm;
-  height: 0.5cm;
+  width: 60px;
+  height: 60px;
 
 }
 .txt1{
@@ -40,9 +40,24 @@
   border-color: #9db9f6;
   background-color: #f7f7fc;
 }
-.btnImg{
+.btnImg h5{
   text-underline: #0e0d0d;
 }
+.myP{
+  width: 5cm;
+  height: 5cm;
+}
+.logophMe{
+  align-content: center;
+  width: 200px;
+  height: 340px;
+
+}
+.div21{
+  width: 900px;
+  height: 380px;
+}
+
 
 
 .navAbout{
