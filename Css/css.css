@@ -5,10 +5,16 @@
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
   background-color: #eefcfc;
+  list-style: none;
+  text-decoration: none;
+  overflow: hidden;
+  /* position: fixed; */
 }
 .navigation {
   display: flex;
   gap: 1.2rem;
+  list-style-type: none;
+  text-decoration: none;
 
 }
 .nav-link:hover {
@@ -17,7 +23,9 @@
 }
 .nav-link{
   color: #131213;
-  font-size: 15px;}
+  font-size: 15px;
+  text-decoration: none;
+}
 .logoph {
   display: flex;
   border-image: none;
@@ -39,7 +47,14 @@
   color: #0453fc;
   border-color: #9db9f6;
   background-color: #f7f7fc;
-}
+  text-decoration: none;
+
+  }
+  .btn1 a{
+    text-decoration: none;
+  }
+
+
 .btnImg h5{
   text-underline: #0e0d0d;
 }
